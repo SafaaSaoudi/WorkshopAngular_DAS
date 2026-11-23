@@ -1,1 +1,5 @@
-<p>navbar works!</p>
+<nav class="navbar">
+    @for(item of Links; track item.name){
+  <a>{{item.name}}</a>
+    }
+</nav>
